@@ -25,6 +25,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
@@ -66,7 +69,7 @@
               </ul>
               <div class="user_option">
                 <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"><i class="fa fa-search"></i></button>
+                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit" ><i class="fa fa-search" onclick="searchItem()"></i></button>
                   <input type="text" name="" id="find" placeholder="search here...." onkeyup="search()">
                 </form>
               </div>
@@ -118,39 +121,25 @@
 
   <!-- about section -->
 
-  <section class="image-with-text">
+  <section class="image-with-text resolute">
     <div class="image">
       <img src="./images/Resolute-UI-About.jpg" alt="Image description">
     </div>
     <div class="text">
-      <h1 class="text-heading">ABOUT US</h1>
-      <p>Welcome to Resolute, your partner in strategic investment endeavors. Led by
-        visionary Alok Sanghi, Director at Resolute Digital Systems Pvt. Ltd., he comes
-        with a wealth of knowledge and experience. We pride ourselves on our
-        commitment to fostering financial growth and opportunity in dynamic markets.
+      <h2 class="text-heading" style="color: #fff;">ABOUT US</h2>
+      <p>Welcome to Resolute, your strategic investment partner led by visionary Alok Sanghi
+        Director at Resolute Digital Systems Pvt. Ltd. With a wealth of knowledge and experience, 
+        we're dedicated to fostering financial growth in dynamic markets through strategic diversification 
+        and forward-thinking strategies.
       </p>
-      <p>
-        At Resolute, we believe in the power of strategic diversification. Our approach to
-        investment is rooted in careful analysis and forward-thinking strategies, allowing
-        us to explore a myriad of avenues for potential growth and success.
+      <p>Our diverse portfolio includes ventures in fashion Hair Drama Co., 
+        infrastructure Sanghi Cement and sports Delhi Toofan Volleyball team.
       </p>
-      <p>
-        Behind Resolute stands a portfolio as diverse as the opportunities we seek. From
-        innovative ventures in fashion to the spirited world of sports, we’ve cultivated a
-        range of investments that reflect our vision for dynamic growth. Among our
-        notable investments stand Hair Drama Co., a trailblazer in the hair fashion
-        industry, Sanghi Cement, a notable name in infrastructure sector and the spirited
-        Delhi Toofans Volleyball team, embodying resilience and passion on and off the
-        court.
+      <p>Our commitment extends beyond the bottom line. We are driven by principles 
+        of transparency and integrity in every investment endeavor.
       </p>
-      <p>
-        Our commitment extends beyond the bottom line. We are driven by principles of
-        transparency and integrity in every investment endeavor and are dedicated to
-        providing resources needed to fuel growth and success.
-      </p>
-      <p>
-        Join us as we chart new territories, explore exciting opportunities, and build a
-        future of financial success together. Welcome to Resolute.
+      <p>Join us as we chart new territories, explore exciting opportunities, 
+        and build a future of financial success together.
       </p>
     </div>
   </section>
@@ -159,27 +148,28 @@
   <!-- portfolio section  -->
   <section class="portfolio">
     <div class="port-bg">
-      <img class="port-bg" src="/images/hero-bg.jpg" alt="Image description">
+      <img class="port-bg" src="./images/Resolute-UI-Portfolio.jpg" alt="Image description">
       <div class="text-overlay">
         <h2>PORTFOLIO</H2>
     </div>
     </div>
     <div class="container">
       <div class="company-list">
-        <div class="company">
+        <div class="company" style="background-image: url(./images/Hairdrama.jpg);">
           <h2>Hair Drama Co.</h2>
+
         </div>
-        <div class="company">
-          <h2>Delhi</h2>
+        <div class="company" style="background-image: url(./images/Delhi-Toofan.jpg);">
+          <h2>Delhi Toofans</h2>
         </div>
-        <div class="company">
-          <h2>Toofans</h2>
-        </div>
-        <div class="company">
+        <div class="company" style="background-image: url(./images/Delhi-Toofan-360x360.jpg);">
           <h2>Real Estate</h2>
         </div>
-        <div class="company">
-          <h2>Finance</h2>
+        <div class="company" style="background-image: url(./images/Share-Square.jpg);">
+          <h2>Samruddhi</h2>
+        </div>
+        <div class="company" style="background-image: url(./images/Sanghi-Cement.jpg);">
+          <h2>Sanghi Cement</h2>
         </div>
       </div>
     </div>
@@ -206,7 +196,7 @@
 
     </div>
     <div class="image">
-      <img src="/images/Resolute-UI-Alok-Sir.jpg" alt="Image description">
+      <img src="./images/Resolute-UI-Alok-Sir.jpg" alt="Image description">
     </div>
   </section>
   <!-- end the owner section  -->
@@ -214,7 +204,7 @@
   <!-- Teams -->
   <section class="team">
     <div class="container">
-      <h3 class="team-heading">MEET THE TEAM</h3>
+      <h2 class="team-heading">MEET THE TEAM</h2>
       <div class="row">
         <div class="col-sm-12">
           <div id="our-team" class="owl-carousel">
@@ -222,7 +212,7 @@
             <!--member 1 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-responsive" src="/images/client-1.jpg" alt="">
+                <img class="img-responsive" src="./images/client-1.jpg" alt="">
                 <div class="item-details">
                   <h5>Lorem, ipsum dolor.</h5>
                   <p>There was a time when Chinese food in this country meant (Americanized) Cantonese food.</p>
@@ -234,7 +224,7 @@
             <!--member 2 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-responsive" src="/images/client-2.jpg" alt="">
+                <img class="img-responsive" src="./images/client-2.jpg" alt="">
                 <div class="item-details">
                   <h5>Lorem, ipsum dolor.</h5>
                   <p>There was a time when Chinese food in this country meant (Americanized) Cantonese food.</p>
@@ -246,7 +236,7 @@
             <!--member 3 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-responsive" src="/images/client-1.jpg" alt="">
+                <img class="img-responsive" src="./images/client-1.jpg" alt="">
                 <div class="item-details">
                   <h5>Lorem, ipsum dolor.</h5>
                   <p>There was a time when Chinese food in this country meant (Americanized) Cantonese food.</p>
@@ -258,7 +248,7 @@
             <!--Member 4 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-responsive" src="/images/client-2.jpg" alt="">
+                <img class="img-responsive" src="./images/client-2.jpg" alt="">
                 <div class="item-details">
                   <h5>Lorem, ipsum dolor.</h5>
                   <p>There was a time when Chinese food in this country meant (Americanized) Cantonese food.</p>
@@ -270,7 +260,7 @@
             <!--member 5 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-responsive" src="/images/client-1.jpg" alt="">
+                <img class="img-responsive" src="./images/client-1.jpg" alt="">
                 <div class="item-details">
                   <h5>Lorem, ipsum dolor.</h5>
                   <p>There was a time when Chinese food in this country meant (Americanized) Cantonese food.</p>
@@ -398,7 +388,7 @@
 							<div class="col-xl-3 col-lg-4 col-sm-6 about-widget">
 								<h6 class="title">About OUR Consulting</h6>
 								<p>That started from this tropic port aboard this tiny ship today still want by theam government they survive on up to thetre east side to a deluxe as soldiers of artics fortune.</p>
-								<div class="queries"><i class="flaticon-phone-call"></i> Any Queries : <a href="#">(+1) 234 567 900</a></div>
+								<div class="queries"></i>Any Queries : <a href="#">(+1) 234 567 900</a></div>
 							</div> <!-- /.about-widget -->
 							<div class="col-xl-4 col-lg-3 col-sm-6 footer-recent-post">
 								<h6 class="title">RECENT POSTS</h6>
@@ -420,14 +410,13 @@
 								</ul>
 							</div> <!-- /.footer-recent-post -->
 							<div class="col-xl-2 col-lg-3 col-sm-6 footer-list">
-								<h6 class="title">SOLUTIONS</h6>
+								<h6 class="title">PORTFOLIO</h6>
 								<ul>
-									<li><a href="#">Travel and Aviation</a></li>
-									<li><a href="#">Business Services</a></li>
-									<li><a href="#">Consumer Products</a></li>
-									<li><a href="#">Financial Services</a></li>
-									<li><a href="#">Software Research</a></li>
-									<li><a href="#">Quality Resourcing</a></li>
+									<li><a href="#">HairDrama</a></li>
+									<li><a href="#">Delhi Toofan</a></li>
+									<li><a href="#">Real Estate</a></li>
+									<li><a href="#">Samruddhi</a></li>
+									<li><a href="#">Sanghi Cement</a></li>
 								</ul>
 							</div> <!-- /.footer-list -->
 							<div class="col-xl-3 col-lg-2 col-sm-6 footer-newsletter">
@@ -447,9 +436,9 @@
 							<div class="col-md-6 col-12"><p>&copy; Copyrights 2024. All Rights Reserved.</p></div>
 							<div class="col-md-6 col-12">
 								<ul>
-									<li><a href="about.html">About</a></li>
+									<li><a href="about.html">About Us</a></li>
 									<!-- <li><a href="service.html">Solutions</a></li> -->
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="contact.php">Contact Us</a></li>
 								</ul>
 							</div>
 						</div>
@@ -563,8 +552,16 @@ $('#our-insights').owlCarousel( {
             }
         }
     }
+    function searchItem() {
+        var searchInput = document.querySelector('#find');
+        if (searchInput.style.display === "block") {
+            searchInput.style.display = "none";
+        } else {
+            searchInput.style.display = "block";
+            searchInput.focus(); // Focus on the input field when it's displayed
+        }
+    }
 </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
-
 </html>
