@@ -569,14 +569,14 @@ input#find {
 .theme-footer-one .top-footer {background: #001648;padding: 80px 0 0px 0;}
 .theme-footer-one .top-footer .title {
   color: #fff;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
   margin-top: 10px;
 }
 .theme-footer-one .top-footer .about-widget p {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 25px;
   color: #9ca6bf;
 }
@@ -584,7 +584,7 @@ input#find {
 .theme-footer-one .top-footer .about-widget .queries {color: #fff;margin-top: 25px;font-size: 17px;}
 .theme-footer-one .top-footer .about-widget .queries a {
   font-family: "Poppins", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   color: #fff;
 }
 .theme-footer-one .top-footer .footer-recent-post li {
@@ -682,7 +682,7 @@ input#find {
 .theme-footer-one .bottom-footer ul li {display: inline-block;line-height: 25px;}
 .theme-footer-one .bottom-footer ul li a {
   font-family: "Poppins", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   color: #9ca6bf;
   margin-left: 35px;
 }
