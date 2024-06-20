@@ -573,7 +573,7 @@ input#find {
   display: none;
 }
 /*---------------------- Theme footer one ------------------*/
-.theme-footer-one .top-footer {background: #0f4769;padding: 80px 0 0px 0;}
+.theme-footer-one .top-footer {background: #0f4769;padding: 20px 0 0px 0;}
 .theme-footer-one .top-footer .title {
   color: #fff;
   font-size: 17px;
@@ -683,7 +683,7 @@ input#find {
 .theme-footer-one .top-footer .footer-newsletter ::-ms-input-placeholder { /* Microsoft Edge */
   color: #9ca6bf;
 }
-.theme-footer-one .bottom-footer {background: #0a2435;padding: 15px 0;}
+.theme-footer-one .bottom-footer {background: #0a2435;padding: 15px 0; padding-bottom: 0;}
 .theme-footer-one .bottom-footer p {color: #9ca6bf;line-height: 25px;font-size: 16px;}
 .theme-footer-one .bottom-footer ul {text-align: right;}
 .theme-footer-one .bottom-footer ul li {display: inline-block;line-height: 25px;}
@@ -692,6 +692,9 @@ input#find {
   font-size: 16px;
   color: #9ca6bf;
   margin-left: 35px;
+}
+.theme-footer-one .bottom-footer .container{
+  padding: 2px;
 }
 .theme-footer-one .bottom-footer ul li a:hover  {color: #fff;}
 body .theme-button-one {
@@ -1620,9 +1623,6 @@ h1, h2, h3, h4, h5, h6 {
         line-height: 0.88rem;
         color: #000;
         }
-
-
-
 /* Thumbnail Box */
 .core-value .caption h4 {
     font-size: 1rem;
