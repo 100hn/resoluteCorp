@@ -154,16 +154,16 @@ section .portfolio {
 }
 
 .company-list {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
     top: -140px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .company {
-  width: 45%;
-  height: 500px;
+  height: 344px;
   margin: 20px;
   background-size: cover;
   background-position: center;
@@ -208,10 +208,12 @@ section .portfolio {
 @media (max-width: 700px) {
 .company {
   width: 100%;
-  height: 344px;
+  height: 285px;
   }
+  .company-list {
+    display: flex;
 }
-
+}
 /* owner section  */
 @media (min-width: 700px) {
     section.image-with-text.owner .image {
@@ -1650,8 +1652,3 @@ h1, h2, h3, h4, h5, h6 {
   .contact-us-section.section-spacing {
           margin: 0;
       }
-@media screen and (min-width:600px){
-  .logo.float-left {
-      padding-left: 150px;
-    }
-  }
