@@ -163,7 +163,7 @@ section .portfolio {
 
 .company {
   width: 45%;
-  height: 400px;
+  height: 500px;
   margin: 20px;
   background-size: cover;
   background-position: center;
@@ -193,14 +193,14 @@ section .portfolio {
   text-align: center;
   opacity: 0; /* Initially hide the h2 */
   transition: opacity 0.3s ease;
-  display:none;
+  display: none;
 }
 
 .company:hover h2 {
   opacity: 1; 
   top: 50%;
   position: relative;
-  display:block;
+  display: block;
 }
 
 /* Add background images for each company */
