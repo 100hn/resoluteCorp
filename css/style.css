@@ -275,7 +275,7 @@ section .portfolio {
 @media (max-width: 700px) {
 .company {
   width: 100%;
-  height: 285px;
+  height: 310px;
   margin-bottom: 20px; 
   }
   .company-list {
