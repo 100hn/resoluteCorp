@@ -42,7 +42,7 @@ body {
 /* announcement bar  */
 .address-wrapper p {
   text-align: center;
-  background-color: #2374B6;
+  background-color: #0f4769;
   color: #fff;
   padding: 5px;
   margin-bottom: 0 ;
@@ -94,11 +94,11 @@ body {
 }
 
 section.image-with-text {
-  background: #2374B6;
+  background: #0f4769;
   color: #fff;
 }
 section.image-with-text.owner {
-  background: #e4e1dc;
+  background: #f4f5f6;
 }
 @media (min-width: 700px) {
 section.image-with-text.resolute {
@@ -117,7 +117,7 @@ section.image-with-text.resolute {
   left: 50%;
   width: 75px;
   height: 5px;
-  background-color: #2374B6;;
+  background-color: #0f4769;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -236,11 +236,11 @@ section .portfolio {
 /* insights section  */
 .insights-heading{
   text-align: center;
-  color: #2374B6;
+  color: #0f4769;
   font-weight: 600;
 }
 .testimonials{
-	background-color: #b3aeae;
+	background-color: #f4f5f6;
 	position: relative;
 	padding-top: 10px;
 	&:after{
@@ -322,11 +322,11 @@ section .portfolio {
   .team-heading{
     text-align: center;
     font-weight: 600;
-    color: #2374B6;
+    color: #0f4769;
   }
   #our-team{
     .item-details{
-      background-color: #2374B6;
+      background-color: #0f4769;
       color: #fff;
       padding: 20px 10px;
       text-align: left;
@@ -386,6 +386,13 @@ section .portfolio {
   text-align: center;
   padding-top: 71px;
 }
+h2.email-heading {
+  color: #0f4769;
+  font-weight: bold;
+}
+.email-text p{
+  font-size: 14px;
+}
 
 /* Make the email button full width on small screens */
 @media (max-width: 768px) {
@@ -398,16 +405,16 @@ section .portfolio {
 /* Add some basic styling to the email link */
 .email-btn a {
   text-decoration: none;
-  color: #337ab7;
+  color: #0f4769;
   background-color: #fff;
-  border: 1px solid #2374b6;
+  border: 1px solid #0f4769;
   padding: 13px 24px;
   border-radius: 20px;
 }
 
 .email-btn a:hover {
   color: #fff;
-  background-color: #2374b6;
+  background-color: #0f4769;
   border-color: #fff;
 }
 /* end of newsletter section  */
@@ -418,7 +425,7 @@ section .portfolio {
   height: 460px;
 }
 .hero_area .detail-box h1{
- color: #23527c;
+ color: #0f4769;
  font-weight: bold !important;
 }
 
@@ -566,7 +573,7 @@ input#find {
   display: none;
 }
 /*---------------------- Theme footer one ------------------*/
-.theme-footer-one .top-footer {background: #001648;padding: 80px 0 0px 0;}
+.theme-footer-one .top-footer {background: #0f4769;padding: 80px 0 0px 0;}
 .theme-footer-one .top-footer .title {
   color: #fff;
   font-size: 17px;
@@ -655,7 +662,7 @@ input#find {
   margin-bottom: 20px;
 }
 .theme-footer-one .top-footer .footer-newsletter .theme-button-one {background: #fff;margin-top: 15px;}
-.theme-footer-one .top-footer .footer-newsletter .theme-button-one:hover {color: #fff;background: #001138;}
+.theme-footer-one .top-footer .footer-newsletter .theme-button-one:hover {color: #fff;background: #0f4769;}
 .theme-footer-one .top-footer .footer-newsletter ::-webkit-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #9ca6bf;
 }
@@ -676,8 +683,8 @@ input#find {
 .theme-footer-one .top-footer .footer-newsletter ::-ms-input-placeholder { /* Microsoft Edge */
   color: #9ca6bf;
 }
-.theme-footer-one .bottom-footer {background: #001138;padding: 15px 0;}
-.theme-footer-one .bottom-footer p {color: #9ca6bf;line-height: 25px;font-size: 17px;}
+.theme-footer-one .bottom-footer {background: #0a2435;padding: 15px 0;}
+.theme-footer-one .bottom-footer p {color: #9ca6bf;line-height: 25px;font-size: 16px;}
 .theme-footer-one .bottom-footer ul {text-align: right;}
 .theme-footer-one .bottom-footer ul li {display: inline-block;line-height: 25px;}
 .theme-footer-one .bottom-footer ul li a {
@@ -740,7 +747,7 @@ body .theme-button-one {
   padding: 10px 35px;
   background-color: #fff;
   /* border: 1px solid #23527c; */
-  color: #23527c;
+  color: #0f4769;
   border-radius: 5px;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
