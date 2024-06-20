@@ -193,12 +193,14 @@ section .portfolio {
   text-align: center;
   opacity: 0; /* Initially hide the h2 */
   transition: opacity 0.3s ease;
+  display:none;
 }
 
 .company:hover h2 {
   opacity: 1; 
   top: 50%;
   position: relative;
+  display:block;
 }
 
 /* Add background images for each company */
