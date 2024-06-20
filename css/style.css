@@ -281,6 +281,9 @@ section .portfolio {
   .company-list {
     grid-template-columns: 1fr;
 }
+.company-text {
+padding:20px !important;
+}
 }
 /* owner section  */
 @media (min-width: 700px) {
