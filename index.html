@@ -61,9 +61,9 @@
                   <a class="nav-link" href="portfolio.html"> Portfolio </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">Careers</a>
+                  <a class="nav-link" href="career.html">Careers</a>
                 </li>
-		<li class="nav-item">
+                <li class="nav-item">
                   <a class="nav-link" href="about.html">About Us</a>
                 </li>
                 <li class="nav-item">
@@ -226,7 +226,7 @@
               <div class="shadow-effect">
                 <img class="img-responsive" src="./images/client-1.jpg" alt="">
                 <div class="item-details">
-                  <h5>Lorem, ipsum dolor.</h5>
+                  <h5>DC </h5>
                   <p>There was a time when Chinese food in this country meant (Americanized) Cantonese food.</p>
                 </div>
               </div>
@@ -238,7 +238,7 @@
               <div class="shadow-effect">
                 <img class="img-responsive" src="./images/client-2.jpg" alt="">
                 <div class="item-details">
-                  <h5>Lorem, ipsum dolor.</h5>
+                  <h5>Manish </h5>
                   <p>There was a time when Chinese food in this country meant (Americanized) Cantonese food.</p>
                 </div>
               </div>
@@ -250,7 +250,7 @@
               <div class="shadow-effect">
                 <img class="img-responsive" src="./images/client-1.jpg" alt="">
                 <div class="item-details">
-                  <h5>Lorem, ipsum dolor.</h5>
+                  <h5>Amrita</h5>
                   <p>There was a time when Chinese food in this country meant (Americanized) Cantonese food.</p>
                 </div>
               </div>
@@ -262,7 +262,7 @@
               <div class="shadow-effect">
                 <img class="img-responsive" src="./images/client-2.jpg" alt="">
                 <div class="item-details">
-                  <h5>Lorem, ipsum dolor.</h5>
+                  <h5>Vivek</h5>
                   <p>There was a time when Chinese food in this country meant (Americanized) Cantonese food.</p>
                 </div>
               </div>
@@ -274,12 +274,36 @@
               <div class="shadow-effect">
                 <img class="img-responsive" src="./images/client-1.jpg" alt="">
                 <div class="item-details">
-                  <h5>Lorem, ipsum dolor.</h5>
+                  <h5>Sai Prakash</h5>
                   <p>There was a time when Chinese food in this country meant (Americanized) Cantonese food.</p>
                 </div>
               </div>
             </div>
             <!--End of member 5 -->
+
+            <!--member 6 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="./images/client-1.jpg" alt="">
+                <div class="item-details">
+                  <h5>Sunny</h5>
+                  <p>There was a time when Chinese food in this country meant (Americanized) Cantonese food.</p>
+                </div>
+              </div>
+            </div>
+            <!--End of member 6 -->
+
+            <!--member 7 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="./images/client-1.jpg" alt="">
+                <div class="item-details">
+                  <h5>Shyam</h5>
+                  <p>There was a time when Chinese food in this country meant (Americanized) Cantonese food.</p>
+                </div>
+              </div>
+            </div>
+            <!--End of member 7 -->
           </div>
         </div>
       </div>
@@ -424,8 +448,8 @@
 							<div class="col-xl-2 col-lg-3 col-sm-6 footer-list">
 								<h6 class="title">PORTFOLIO</h6>
 								<ul>
-									<li><a href="#">HairDrama Co</a></li>
-									<li><a href="#">Delhi Toofans</a></li>
+									<li><a href="#">HairDrama</a></li>
+									<li><a href="#">Delhi Toofan</a></li>
 									<li><a href="#">Real Estate</a></li>
 									<li><a href="#">Samruddhi</a></li>
 									<li><a href="#">Sanghi Cement</a></li>
@@ -445,7 +469,7 @@
 				<div class="bottom-footer">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-6 col-12"><p>&copy; Copyrights 2024. All Rights Reserved.</p></div>
+							<div class="col-md-6 col-12"><p>&copy; Copyrights 2024.</p></div>
 							<div class="col-md-6 col-12">
 								<ul>
 									<li><a href="about.html">About Us</a></li>
@@ -552,9 +576,9 @@ $('#our-insights').owlCarousel( {
     function search() {
         let filter = document.getElementById('find').value.toUpperCase();
         let item = document.querySelectorAll('.section');
-        let l = document.getElementsByTagName('h3');
+        let l = document.getElementsByTagName('h2');
         for (var i = 0; i <= l.length; i++) {
-            let a = item[i].getElementsByTagName('h3')[0];
+            let a = item[i].getElementsByTagName('h2')[0];
             let value = a.innerHTML || a.innerText || a.textContent;
             if (value.toUpperCase().indexOf(filter) > -1) {
                 item[i].style.display = "";
