@@ -239,7 +239,7 @@ section .portfolio {
   right: 0;
   bottom: 0;
   background-color: #0f4769;
-  padding: 60px 20px;
+  padding: 20px;
   border-radius: 10px;
   color: #fff;
   text-align: center;
@@ -263,7 +263,7 @@ section .portfolio {
   padding-bottom: 10px;
 }
 .company p {
-  font-size: 15px;
+  font-size: 16px;
 }
 .company:hover h2,
 .company:hover p {
@@ -275,14 +275,11 @@ section .portfolio {
 @media (max-width: 700px) {
 .company {
   width: 100%;
-  height: 310px;
+  height: 285px;
   margin-bottom: 20px; 
   }
   .company-list {
     grid-template-columns: 1fr;
-}
-.company-text {
-padding:20px !important;
 }
 }
 /* owner section  */
@@ -1734,3 +1731,181 @@ h1, h2, h3, h4, h5, h6 {
           margin: 0;
           background: #f4f5f6;
       }
+
+  /* career page  */
+  #careers {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #careers h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .richtext {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  #careers button {
+    background-color: #0f4769;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  #careers button:hover {
+    background-color: #2890d1;
+  }
+
+  /* career image section  */
+  .career-image {
+    display: flex;
+  }
+  .career-image div {
+    width: 25%; 
+    height: 420px; 
+    margin: 10px; 
+  }
+  
+  .career-image .image-full {
+  background-size: cover;
+  background-position: center;
+  }
+  .career-image .image-full img {
+      width: 100%;
+      height: 420px;
+  }
+  .career-image .image-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+  
+  .career-image .image-block img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  }
+  
+  @media (max-width: 700px) {
+    .career-image {
+      display: flex;
+      flex-direction: column;
+    }
+    .career-image div {
+      width: 100% !important; 
+      height: 420px; 
+      margin: 10px; 
+    }
+  }
+
+  /* why join us  */
+
+  .why-join-us {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .caption {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .why-join-us h2 {
+    font-size: 36px;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .reason {
+    display: inline-block;
+    width: 29%; 
+    margin: 20px;
+    vertical-align: top;
+  }
+  
+  .reason h3 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .reason p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  @media (max-width:600px) {
+    .reason {
+      display: block;
+      width: 100%;
+      margin: 20px;
+      }
+  }
+
+  .gallery {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .full-width-image {
+    width: 60%;
+    height: 650px; /* adjust the height to fit your needs */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .full-width-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .image-grid {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+  }
+  
+  .image-wrap {
+    width: 100%; /* adjust the width to fit your needs */
+    margin: 0px 0 10px 10px;
+  }
+  
+  .image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media (max-width:600px) {
+      .gallery{
+          flex-direction: column;
+      }
+      .full-width-image{
+          width: 100%;
+          height: auto;
+      }
+      .image-wrap {
+      margin: 10px 0 0px 0px;
+      }
+      .image-grid {
+      width: 100%;
+      }
+  }
