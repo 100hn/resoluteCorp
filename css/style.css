@@ -1350,7 +1350,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact-us-section .form-wrapper {
   background: #fff;
   border-radius: 0 5px 5px 0;
-  height: 500px;
+  height: auto;
   padding: 75px 40px 60px 40px;
 }
 .theme-form-one input:focus,
