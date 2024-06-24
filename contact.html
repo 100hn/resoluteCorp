@@ -85,36 +85,182 @@
 				Conatct us Section
 			============================================== 
 			-->
+    <style>
+        .contact-us-section {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+.contact-us-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-us-title h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-us-title p {
+  font-size: 16px;
+  color: #666;
+}
+
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-wrapper {
+  padding: 20px;
+}
+
+.contact-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+.form-group p {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    margin-bottom: -15px;
+    padding-bottom: 0;
+}
+.form-group input, .form-group textarea, .form-group select {
+  grid-column: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.or-divider {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Styles for file upload */
+.file-upload input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Increase font size */
+    background-color: #f9f9f9; /* Light background color */
+    outline: none; /* Remove default focus outline */
+  }
+
+  .file-upload input[type="file"]::-webkit-file-upload-button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .file-upload input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #23527c;
+  }
+
+  .file-upload small {
+    font-size: 12px;
+    color: #999;
+  }
+
+
+.btn-submit {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-submit:hover {
+  background-color: #23527c;
+}
+    </style>
     <div class="contact-us-section section-spacing">
         <div class="container">
-            <div class="theme-title-one">
-                <h2>GET IN TOUCH</h2>
-                <p>A tale of a fateful trip that started from this tropic port aboard this tiny ship today stillers</p>
+            <div class="contact-us-title">
+                <h2>Got a Game-Changer? </h2>
+                <p>We’re all ears for your groundbreaking ideas </p>
             </div> <!-- /.theme-title-one -->
-            <div class="clearfix main-content no-gutters row">
-                <div class="col-lg-5 col-12">
-                    <div class="img-box"></div>
-                </div>
-                <div class="col-lg-7 col-12">
+            <div class="main-content">
+                <div>
                     <div class="form-wrapper">
-                        <form class="theme-form-one form-validation" autocomplete="off" method="POST">
+                        <form enctype="multipart/form-data" class="contact-form" autocomplete="off" method="POST">
                             <div class="row">
-                                <div class="col-sm-6 col-12"><input type="text" placeholder="Name *" name="name" required></div>
-                                <div class="col-sm-6 col-12"><input type="text" placeholder="Phone *" name="phone" required>
+                                <div class="form-group">
+                                    <label for="message">Describe Your Idea*</label>
+                                    <textarea cols="40" rows="10" placeholder="Write a brief about your idea" id="message" name="message" required></textarea>
                                 </div>
-                                <div class="col-sm-6 col-12"><input type="email" placeholder="Email *" name="email" required>
+                                <div class="form-group">
+                                    <label for="website">Additional Links to your ideas</label>
+                                    <input type="text" placeholder="Include any other relevant material for our evaluation*" id="website" name="website" >
                                 </div>
-                                <div class="col-sm-6 col-12"><input type="text" placeholder="Website *" name="website" required>
+                                <div class="or-divider"><p>Or</p></div>
+                                <div class="form-group file-upload">
+                                    <label for="pdf_file">Upload Relevant Material</label>
+                                    <input size="40" type="file" id="pdf_file" name="pdf_file" accept=".pdf">
+                                    <small>Upload a PDF file</small>
                                 </div>
-                                <div class="col-12"><textarea placeholder="Message" name="message" required></textarea></div>
+                                <div class="form-group">
+                                    <label for="select_option">Sector of Interest*</label>
+                                    <select id="select_option" name="select_option" required>
+                                        <option value="">Select an option</option>
+                                        <option value="option1">Option 1</option>
+                                        <option value="option2">Option 2</option>
+                                        <option value="option3">Option 3</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">Name*</label>
+                                    <input type="text" placeholder="Please enter your name" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone*</label>
+                                    <input type="tel" placeholder="Enter your contact " id="phone" name="phone" pattern="[1-9]{1}[0-9]{9}" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email*</label>
+                                    <input type="email" placeholder="Please enter your email" id="email" name="email" required>
+                                </div>                             
                             </div> <!-- /.row -->
-                            <button type="submit" name="send" class="theme-button-one" onclick="sendMessage()">SEND MESSAGE</button>
+                            <button type="submit" name="send" class="btn-submit">SEND MESSAGE</button>
                         </form>
                     </div> <!-- /.form-wrapper -->
                 </div> <!-- /.col- -->
             </div> <!-- /.main-content -->
         </div> <!-- /.container -->
-
+    </div> <!-- /.contact-us-section -->
+	
       <pre>
        <script>
         function sendMessage(){
