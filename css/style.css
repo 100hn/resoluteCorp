@@ -634,7 +634,12 @@ a:focus {
   background-image: url(../images/menu.png);
   background-size: 55px;
 }
-
+a.nav-link.pitch-btn {
+    background: #0F4769;
+    padding: 2px 13px !important;
+    color: #fff !important;
+    border-radius: 5px;
+}
 /*end header section*/
 ul{
   list-style-type: none;
