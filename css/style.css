@@ -1488,11 +1488,11 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   background-color: #707d9e;
 }
+*/
 .theme-inner-banner .overlay {
-  background: rgba(0,26,87,0.4);
   text-align: center;
   padding: 110px 0 70px 0;
-} */
+} 
 .theme-inner-banner .overlay h2 {font-size: 30px;color: #000;text-transform: uppercase;}
 .theme-inner-banner.section-spacing {
   margin: 0;
