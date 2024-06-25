@@ -76,81 +76,116 @@
     </header>
 
 <!-- career section  -->
-    <section id="careers">
-        <h2>Careers</h2>
-        <div class="richtext">
-          <p>Join our team of innovators and make a difference in the world!</p>
-          <p>We're always looking for talented individuals to help us drive our mission forward.</p>
-        </div>
-        <button>Explore Open Positions</button>
-    </section>
- 
-    <section class="career-image">
-        <div class="image-full">
-        <img src="./images/Resolute-UI-About.jpg" alt="Image 1">
-        </div>
-        <div class="image-block">
-          <img src="./images/client-1.jpg" alt="Image 1">
-          <img src="./images/client-2.jpg" alt="Image 2">
-        </div>
-        <div class="image-full">
-            <img src="./images/Hairdrama.jpg" alt="Image 1">
-        </div>
-        <div class="image-block">
-          <img src="./images/client-2.jpg" alt="Image 3">
-          <img src="./images/client-1.jpg" alt="Image 4">
-        </div>
-    </section>
+    <style>
+    .revolution-section {
+  background-color: #f7f7f7; /* light gray background */
+  padding: 50px 0 0 80px; /* add some padding to the section */
+}
+.col-md-12 {
+    width: 649px;
+    padding-bottom: 80px;
+}
+.revolution-title {
+  font-size: 66px; /* increase font size for better readability */
+  font-weight: bold; /* make the title bold */
+  color: #333; /* dark gray color for the title */
+  margin-bottom: 40px; /* add some margin below the title */
+}
 
-    <!-- why join us  -->
-    <section class="why-join-us">
-        <div class="caption">Discover the benefits of joining our team</div>
-        <h2>Why Join Us?</h2>
-        <div class="reason">
-          <h3>Collaborative Environment</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
-        </div>
-        <div class="reason">
-          <h3>Opportunities for Growth</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
-        </div>
-        <div class="reason">
-          <h3>Competitive Benefits</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
-        </div>
-        <div class="reason">
-            <h3>Collaborative Environment</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+.revolution-tagline {
+  font-size: 18px; /* increase font size for better readability */
+  color: #666; /* medium gray color for the tagline */
+  margin-bottom: 40px; /* add some margin below the tagline */
+}
+
+.portfolio-positions {
+  padding-bottom: 10px;
+}
+
+.portfolio-title {
+  font-size: 24px; /* increase font size for better readability */
+  font-weight: bold; /* make the title bold */
+  color: #333; /* dark gray color for the title */
+  margin-bottom: 10px; /* add some margin below the title */
+}
+
+.no-openings {
+  /* padding: 20px; */
+}
+
+.no-openings p {
+  font-size: 16px; /* increase font size for better readability */
+  color: #000; /* medium gray color for the text */
+  margin-bottom: 10px; /* add some margin below the text */
+}
+
+.no-openings a {
+  color: #0F4769; /* blue color for the link */
+  text-decoration: none; /* remove underline from the link */
+  font-weight: 900;
+}
+
+.no-openings a:hover {
+  color: #23527c; /* darker blue color on hover */
+  text-decoration: underline; /* add underline on hover */
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+.revolution-section {
+    background-color: #f7f7f7;
+    padding: 50px 16px 0 16px;
+}
+.col-md-12 {
+    width: 100%;
+    padding-bottom: 40px;
+}
+ .revolution-title {
+    font-size: 24px; /* decrease font size for smaller screens */
+  }
+ .revolution-tagline {
+    font-size: 14px; /* decrease font size for smaller screens */
+  }
+ .portfolio-positions {
+    padding: 10px; /* decrease padding for smaller screens */
+  }
+ .portfolio-title {
+    font-size: 18px; /* decrease font size for smaller screens */
+  }
+ .no-openings {
+    padding: 10px; /* decrease padding for smaller screens */
+  }
+ .no-openings p {
+    font-size: 12px; /* decrease font size for smaller screens */
+  }
+}
+    </style>
+    <section class="revolution-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="revolution-title">Join the Resolute Revolution</h1>
+              <p class="revolution-tagline">Embrace a culture of innovation and growth, where your talents shape the future of strategic investment</p>
+            </div>
           </div>
-          <div class="reason">
-            <h3>Opportunities for Growth</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+      
+          <div class="row">
+            <div class="col-md-12">
+              <div class="portfolio-positions">
+                <h2 class="portfolio-title">POSITIONS</h2>
+                <p>Currently no open positions</p>
+              </div>
+              <div class="no-openings">
+                <p>Interested in joining the revolution?</p>
+                <p>Reach out to <a href="mailto:contact@resolutecorp.in">contact@resolutecorp.in</a></p>
+              </div>
+            </div>
           </div>
-          <div class="reason">
-            <h3>Competitive Benefits</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
-          </div>
+      
+        </div>
       </section>
 
-      <!-- gallary section  -->
-
-      <section class="gallery">
-        <div class="full-width-image">
-          <img src="./images/Resolute-UI-About.jpg" alt="Image 1">
-        </div>
-        <div class="image-grid">
-          <div class="image-wrap">
-            <img src="./images/client-1.jpg" alt="Image 2">
-          </div>
-          <div class="image-wrap">
-            <img src="./images/client-2.jpg" alt="Image 3">
-          </div>
-        </div>
-      </section>
-<style>
-
-
-</style>
     <footer class="theme-footer-one">
         <div class="top-footer">
             <div class="container">
