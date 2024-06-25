@@ -143,6 +143,10 @@ section .portfolio {
   transform: translateY(-50%); /* Center vertically */
   text-align: center; /* Center horizontally */
 }
+p.com-name {
+    display: contents;
+    font-size: xxx-large;
+}
 
 .text-overlay h2 {
   font-weight: bold;
