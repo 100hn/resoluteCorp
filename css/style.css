@@ -624,7 +624,8 @@ a:focus {
   height: 45px;
   z-index: 2;
 }
-
+/* logo */
+.navbar-brand img { width: 207px; }
 .custom_nav-container {
   z-index: 99999;
   padding: 5px 0;
