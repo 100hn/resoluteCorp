@@ -184,7 +184,7 @@ p.com-name {
   cursor: pointer;
 }
 
-.company:before,
+/* .company:before,
 .company:after {
   content: '';
   position: absolute;
@@ -195,7 +195,7 @@ p.com-name {
   box-sizing: border-box;
   transition: transform 0.5s, opacity 0.5s;
   opacity: 0;
-}
+} */
 
 .company:before {
   border-top: 1px solid #fff;
