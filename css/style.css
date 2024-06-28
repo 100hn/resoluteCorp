@@ -308,6 +308,10 @@ padding:20px;
 .mainn .mainn-text{
   text-align: left;
 }
+p.design {
+    text-align: center;
+}
+
 /* insights section  */
 .insights-heading{
   text-align: center;
