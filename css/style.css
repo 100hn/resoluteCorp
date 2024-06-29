@@ -292,10 +292,10 @@ padding:20px;
 /* owner section  */
 @media (min-width: 700px) {
     section.image-with-text.owner .image {
-        padding: 0px 120px 0px 40px !important;
+        padding: 0px 140px 0px 40px !important;
     }
   section.image-with-text.owner .text{
-    padding: 25px 0px 25px 139px;
+    padding: 25px 0px 25px 140px;
   }
 }
 
