@@ -1337,12 +1337,11 @@ section.app_section .img-box img {
 /*------------------- Theme Title ------------------*/
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
-  color: #232323;
+  color: #000;
 }
 .theme-title-one {position: relative;text-align: center;}
 .theme-title-one h2 {
   position: relative;
-  text-transform: uppercase;
   padding-bottom: 22px;
   font-size: 38px;
   font-weight: 900;
