@@ -652,7 +652,7 @@ a.nav-link.pitch-btn {
 /* padding */
 @media screen and (min-width: 600px) {
 div#navbarSupportedContent {
-    padding-right: 130px;
+    padding-right: 140px;
   }
 }
 /*end header section*/
