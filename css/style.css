@@ -649,6 +649,12 @@ a.nav-link.pitch-btn {
     color: #fff !important;
     border-radius: 5px;
 }
+/* padding */
+@media screen and (min-width: 600px) {
+div#navbarSupportedContent {
+    padding-right: 130px;
+  }
+}
 /*end header section*/
 ul{
   list-style-type: none;
