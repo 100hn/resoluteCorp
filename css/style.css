@@ -305,7 +305,9 @@ padding:20px;
   color: #000;
   padding: 28px;
 }
-
+.mainn h3{
+padding-bottom:0px !important;
+}
 .mainn .mainn-text{
   text-align: left;
 }
